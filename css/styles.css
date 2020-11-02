@@ -1,0 +1,52 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    margin-bottom: 1rem;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.floripa-icon {
+    max-width: 48px;
+    width: 100%;
+    margin-right: 1rem;
+}
+
+.logo-text {
+    font-weight: bold;
+}
+
+#main-menu {
+    display: flex;
+    padding: 1.5rem 0;
+}
+
+#main-menu a {
+    justify-content: flex-end;
+    margin-left: 1rem;
+    color: white;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.hero-img {
+    max-width: 100%;
+    border-radius: 20px;
+}
