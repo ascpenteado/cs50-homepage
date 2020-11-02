@@ -1,9 +1,3 @@
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -17,6 +11,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    text-decoration: none;
 }
 
 .floripa-icon {
@@ -40,6 +36,17 @@ header {
     color: white;
     font-size: 0.9rem;
     line-height: 1.2rem;
+    border-bottom: 2px solid transparent;
+    transition: 500ms ease-in-out;
+}
+
+#main-menu a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+
+#main-menu .active {
+    border-bottom: 2px solid white;
 }
 
 section {
@@ -49,4 +56,20 @@ section {
 .hero-img {
     max-width: 100%;
     border-radius: 20px;
+}
+
+footer {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
 }

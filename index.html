@@ -4,22 +4,22 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Floripa - Pocket Guide</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
         <link href="./css/reset.css" rel="stylesheet" />
         <link href="./css/fonts.css" rel="stylesheet" />
         <link href="./css/styles.css" rel="stylesheet" />
     </head>
     <body>
         <header>
-            <span id="logo"
-                ><img src="./assets/images/bridge.png" class="floripa-icon" alt="Heríclio Luz Bridge" />
-                <span class="logo-text"> Floripa - Pocket Guide</span></span
-            >
+            <a href="/" id="logo">
+                <img src="./assets/images/bridge.png" class="floripa-icon" alt="Heríclio Luz Bridge" />
+                <span class="logo-text"> Floripa - Pocket Guide</span>
+            </a>
             <nav id="main-menu">
-                <a href="/index.html">Home</a>
-                <a href="/beaches.html">Beaches</a>
-                <a href="/cusine.html">Cusine</a>
-                <a href="/culture.html">Culture</a>
-                <a href="/history.html">History</a>
+                <a href="/index.html" class="nav-item">Home</a>
+                <a href="/history.html" class="nav-item">History</a>
+                <a href="/economy.html" class="nav-item">Economy</a>
+                <a href="/tourism-and-lifestyle.html" class="nav-item">Tourism and Lifestyle</a>
             </nav>
         </header>
         <main class="container">
@@ -32,33 +32,33 @@
             </div>
             <section>
                 <h1>Welcome to Florianópolis!</h1>
-                <h2>
-                    The name Florianópolis was meant to be a tribute to Marshal Floriano Peixoto, the second President
-                    (1891–1894) of the Republic of the United States of Brazil and from Greek term polis, meaning
-                    "city". Until 1893, the city was called Nossa Senhora do Desterro (Our Lady of Banishment) or simply
-                    "Desterro".
-                </h2>
                 <article>
+                    <h2>
+                        The name Florianópolis was meant to be a tribute to Marshal Floriano Peixoto, the second
+                        President (1891–1894) of the Republic of the United States of Brazil and from Greek term polis,
+                        meaning "city". Until 1893, the city was called Nossa Senhora do Desterro (Our Lady of
+                        Banishment) or simply "Desterro".
+                    </h2>
                     <p>
                         Florianópolis (Portuguese pronunciation: [floɾi.aˈnɔpolis]) is the capital and second largest
                         city of the state of Santa Catarina, in the South region of Brazil. The city encompasses Santa
                         Catarina Island and surrounding small islands, as well as part of the mainland. It has a
                         population of 477,798, according to the 2016 IBGE (Brazilian Institute of Geography and
-                        Statistics) population estimate,[1] the second most populous city in the state (after
-                        Joinville), and the 47th in Brazil. The metropolitan area has an estimated population of
-                        1,111,702, the 21st largest in the country. The city is known for having the country's third
-                        highest Human Development Index score among all Brazilian cities (0.847).[2]
+                        Statistics) population estimate, the second most populous city in the state (after Joinville),
+                        and the 47th in Brazil. The metropolitan area has an estimated population of 1,111,702, the 21st
+                        largest in the country. The city is known for having the country's third highest Human
+                        Development Index score among all Brazilian cities (0.847).
                     </p>
 
                     <p>
-                        The economy of Florianópolis is heavily based on information technology, tourism and
-                        services.[3] The city has 60 beaches and is a center of surfing activity. Lagoa da Conceição is
-                        the most famous area for tourism, recreation, nature and radical sports. The New York Times
-                        reported that "Florianopolis is the Party Destination of the Year in 2009."[4] Newsweek placed
-                        Florianópolis in the "Ten most dynamic cities of the world" list in 2006.[5] Veja, a Brazilian
-                        publication, named the city as "the best place to live in Brazil."[6] As a result of this
-                        exposure, Florianópolis is growing as a second home destination for many Paulistas, Argentines,
-                        North Americans, and Europeans.
+                        The economy of Florianópolis is heavily based on information technology, tourism and services.
+                        The city has 60 beaches and is a center of surfing activity. Lagoa da Conceição is the most
+                        famous area for tourism, recreation, nature and radical sports. The New York Times reported that
+                        "Florianopolis is the Party Destination of the Year in 2009." Newsweek placed Florianópolis in
+                        the "Ten most dynamic cities of the world" list in 2006. Veja, a Brazilian publication, named
+                        the city as "the best place to live in Brazil." As a result of this exposure, Florianópolis is
+                        growing as a second home destination for many Paulistas, Argentines, North Americans, and
+                        Europeans.
                     </p>
 
                     <p>
@@ -67,7 +67,7 @@
                         fishing boats, the lacemakers, the folklore, the cuisine and the colonial architecture
                         contribute to the growing tourism and attracts resources that compensate for the lack of any
                         large industry. Villages immersed in tradition and history, such as Santo Antônio de Lisboa and
-                        Ribeirão da Ilha still resist the advances of modernity.[7]
+                        Ribeirão da Ilha still resist the advances of modernity.
                     </p>
 
                     <p>
@@ -80,5 +80,9 @@
                 </article>
             </section>
         </main>
+        <footer>
+            <a href="https://github.com/ascpenteado/cs50-homepage">CS50 - Homepage</a>
+        </footer>
+        <script src="js/active-link.js"></script>
     </body>
 </html>
